@@ -1,5 +1,19 @@
 ---
 layout: home
+title: 'Brendan Goodenough'
+description:
+  Kiwi living in the Arctic. Check out my portfolio, photography, and blog
+  posts!
+head:
+  - - meta
+    - property: 'keywords'
+      content: 'Brendan Goodenough, software developer, photographer'
+  - - meta
+    - property: 'og:title'
+      content: Brendan Goodenough
+  - - meta
+    - property: 'twitter:title'
+      content: Brendan Goodenough
 ---
 
 <div class="container">
@@ -9,7 +23,7 @@ layout: home
 
   <div class="hero">
     <h1 class="title">Brendan Goodenough</h1>
-    <h2 class="tagline">Software Developer in the Arctic</h2>
+    <h2 class="tagline">Kiwi in the Arctic</h2>
     <a class="projects" href="/projects">My Projects</a>
   </div>
 </div>

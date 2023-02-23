@@ -4,6 +4,14 @@ description:
   Table driven tests provide a robust approach to writing unit tests by removing
   duplication, as well as improving readability and maintanability of your
   tests.
+head:
+  - - meta
+    - property: 'keywords'
+      content:
+        'table driven testing, table tests, tdt, typescript, go, ava, javascript'
+  - - meta
+    - property: 'og:image'
+      content: https://goodenough.nz/thumbails/table-driven-testing-with-typescript.png
 date: 2023-02-23
 author: Brendan Goodenough
 thumbnail: /thumbnails/table-driven-testing-with-typescript.png
