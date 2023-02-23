@@ -4,9 +4,9 @@ description:
   Table driven tests provide a robust approach to writing unit tests by removing
   duplication, as well as improving readability and maintanability of your
   tests.
-date: 2023-02-22
+date: 2023-02-23
 author: Brendan Goodenough
-thumbnail: /blog/table-driven-testing-with-typescript/thumbnail.png
+thumbnail: /thumbnails/table-driven-testing-with-typescript.png
 ---
 
 # Table Driven Testing with TypeScript
@@ -278,7 +278,7 @@ testCases.forEach((testCase) =>
         // fail the test.
         t.fail('test case should not throw an error')
       }
-      t.deepEqual(err, tc.error)
+      t.deepEqual(err, testCase.error)
     }
   })
 )
