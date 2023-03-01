@@ -13,15 +13,17 @@ const { post, size } = defineProps({
 const { title, date, path, thumbnail } = post
 
 let cardClassName = 'card-md'
+let thumbnailSize = 320
 switch (size) {
   case 'lg':
     cardClassName = 'card-lg'
+    thumbnailSize = 640
     break
 }
 
 const style = thumbnail
   ? {
-      backgroundImage: `url(${thumbnail}?width=320)`,
+      backgroundImage: `url(${thumbnail}?width=${thumbnailSize})`,
     }
   : undefined
 </script>
