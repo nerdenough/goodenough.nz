@@ -11,10 +11,10 @@ head:
         'table driven testing, table tests, tdt, typescript, go, ava, javascript'
   - - meta
     - property: 'og:image'
-      content: https://goodenough.nz/thumbnails/table-driven-testing-with-typescript.png
+      content: https://media-goodenough-nz.b-cdn.net/goodenough.nz/blog/table-driven-testing-with-typescript/thumbnail.png
 date: 2023-02-23
 author: Brendan Goodenough
-thumbnail: /thumbnails/table-driven-testing-with-typescript.png
+thumbnail: https://media-goodenough-nz.b-cdn.net/goodenough.nz/blog/table-driven-testing-with-typescript/thumbnail.png
 ---
 
 # Table Driven Testing with TypeScript

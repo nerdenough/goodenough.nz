@@ -2,9 +2,25 @@
   {
     "title": "Table Driven Testing with TypeScript",
     "description": "Table driven tests provide a robust approach to writing unit tests by removing duplication, as well as improving readability and maintanability of your tests.",
-    "date": "2023-02-22T00:00:00.000Z",
+    "head": [
+      [
+        "meta",
+        {
+          "property": "keywords",
+          "content": "table driven testing, typescript, ava"
+        }
+      ],
+      [
+        "meta",
+        {
+          "property": "og:image",
+          "content": "https://media-goodenough-nz.b-cdn.net/goodenough.nz/blog/table-driven-testing-with-typescript/thumbnail.png"
+        }
+      ]
+    ],
+    "date": "2023-02-23T00:00:00.000Z",
     "author": "Brendan Goodenough",
-    "thumbnail": "/thumbnails/table-driven-testing-with-typescript.png",
+    "thumbnail": "https://media-goodenough-nz.b-cdn.net/goodenough.nz/blog/table-driven-testing-with-typescript/thumbnail.png",
     "path": "/blog/table-driven-testing-with-typescript"
   }
 ]

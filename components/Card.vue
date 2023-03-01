@@ -21,7 +21,7 @@ switch (size) {
 
 const style = thumbnail
   ? {
-      backgroundImage: `url(${thumbnail})`,
+      backgroundImage: `url(${thumbnail}?width=320)`,
     }
   : undefined
 </script>
@@ -46,7 +46,7 @@ const style = thumbnail
 .card {
   display: flex;
   height: 250px;
-  border: 1px solid var(--vp-c-gutter);
+  border: 1px solid var(--vp-c-divider);
   margin-bottom: 1rem;
   border-radius: 10px;
   overflow: hidden;
@@ -66,7 +66,6 @@ const style = thumbnail
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border: none;
 }
 
 .container {

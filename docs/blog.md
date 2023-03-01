@@ -13,7 +13,7 @@ layout: page
 <Card :post="posts[0]" size="lg" />
 
 <div class="all-posts" v-if="posts.length > 1">
-<h2>All Posts</h2>
+<h2>Previous Posts</h2>
 
   <div class="cards">
     <Card v-for="post in posts.slice(1)" :post="post" />
